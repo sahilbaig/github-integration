@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     res.json({ "message": "success" })
 
 })
-
+// testing a small change
 app.post('/webhook', (req, res) => {
     // Log the event type and payload
     console.log('Webhook received!');
